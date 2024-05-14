@@ -23,7 +23,12 @@ public class test {
 			String pw = s.next();
 			pw = dto.getUser_pw();
 			my.login(id, pw);
+			
+			
+			System.out.println("Hi");
+
 		}
+		
 //		System.out.print("[수행 기능 선택]\n ** 1. 입력 2. 수정 3. 삭제 4. 조회 **\n>> ");
 //		while (true) {
 //			int num = s.nextInt();
@@ -74,6 +79,8 @@ public class test {
 //				break;
 //			}
 //		}
+	
+		
 
 	}
 
